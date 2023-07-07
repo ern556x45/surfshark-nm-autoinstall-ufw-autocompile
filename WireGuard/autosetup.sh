@@ -1,8 +1,9 @@
 #bash script start
+#Broken for now, ivestigating possible fix
 
 
 read -p "This is an experimental and work in progress script, before proceeding make sure you have the German WG file downloaded from my.surfshark.com in your downloads folder. If you wish to proceed, press Enter to continue"
-# Disclaimer
+# DisclaimerS
 sudo nmcli con import type wireguard file ~/Downloads/de-fra.conf
 #Imports file into NetworkManager
 sudo nmcli con modify "de-fra" connection.id "DE-FRA-WG"
