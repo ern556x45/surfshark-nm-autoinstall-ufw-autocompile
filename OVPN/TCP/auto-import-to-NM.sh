@@ -1,8 +1,8 @@
 #bash script start.
 
 
-read -p "This is an experimental and work in progress script, before proceeding make sure you have the German TCP file downloaded from my.surfshark.com in your downloads folder. If you wish to proceed, press Enter to continue"
-#Disclaimer
+read -p "Make sure you have read readme.md and have the dependencies ready, press Enter to continue"
+# Disclaimer
 sudo nmcli connection import type openvpn file ~/Downloads/de-fra.prod.surfshark.comsurfshark_openvpn_tcp.ovpn
 #Imports file into NetworkManager
 sudo nmcli connection modify "de-fra.prod.surfshark.comsurfshark_openvpn_udp" connection.id "DE-FRA-TCP"

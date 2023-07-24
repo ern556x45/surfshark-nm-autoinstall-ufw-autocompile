@@ -1,6 +1,6 @@
 #bash script start.
 
-read -p "This is an experimental and work in progress script, before proceeding make sure you have UFW installed press Enter to continue"
+read -p "Before proceeding make sure you have UFW installed press Enter to continue"
 #Disclaimer
 
 sudo ufw status

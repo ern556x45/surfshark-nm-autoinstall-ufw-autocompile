@@ -1,7 +1,7 @@
 #bash script start
 
 
-read -p "This is an experimental and work in progress script, before proceeding make sure you have the German WG file downloaded from my.surfshark.com in your downloads folder. If you wish to proceed, press Enter to continue"
+read -p "Make sure you have read readme.md and have the dependencies ready, press Enter to continue"
 # Disclaimer
 sudo nmcli con import type wireguard file ~/Downloads/de-fra.conf
 # Imports file into NetworkManager
