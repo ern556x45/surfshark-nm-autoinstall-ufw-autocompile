@@ -15,8 +15,6 @@ This will utilize NM to connect to the VPN, please note that you will need to ad
 
 It also has an autocompile script for the Uncomplicated Firewall featuring a setup that will automatically block ports for you and work as a prevention to make sure the connection does not drop leaking your real IP and lcoation.
 
-As always, contact me here or on Slack @Ernestas Petkevicius (Blonde fella with glasses as opposed to the devops fella) if you spot anything that can be done better.
-
 **Instructions for using the Autoconfigure UDP / TCP script.**
 
 Both UDP and TCP follow the same process, so just replace UDP with TCP where neccesary.
