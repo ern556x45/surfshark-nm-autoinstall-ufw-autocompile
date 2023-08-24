@@ -5,6 +5,8 @@ read -p "Make sure you have read readme.md and have the dependencies ready, pres
 # Disclaimer
 sudo nmcli con import type wireguard file ~/Downloads/de-fra.conf
 # Imports file into NetworkManager
+sudo nmcli con mod de-fra connection.autoconnect yes
+#Disables autoconnect.
 sudo nmcli con modify "de-fra" connection.id "DE-FRA-WG"
 # Renamed connection to Germany Frankfurt WireGuard or (DE-FRA-WG)
 sudo nmcli con modify "DE-FRA-WG" connection.interface-name wg0
