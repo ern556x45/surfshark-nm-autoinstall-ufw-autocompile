@@ -18,7 +18,7 @@ sudo nmcli con modify "th-bkk" connection.autoconnect no
 sudo nmcli con modify "us-hou" connection.autoconnect no
 sudo nmcli con modify "kr-seo" connection.autoconnect no
 
-sudo nmcli con down "kr-seo"
+sudo nmcli con down "hk-hkg"
 #Disables connection, as it's normal behaviour is to connect automatically right as it's imported.
 sudo nmcli con down "uk-man" 
 sudo nmcli con down "th-bkk" 
